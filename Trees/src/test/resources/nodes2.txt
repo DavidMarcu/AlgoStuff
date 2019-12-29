@@ -1,0 +1,11 @@
+1, -1, null
+2, 1, left
+3, 1, right
+4, 2, left
+5, 2, right
+6, 4, left
+7, 4, right
+8, 5, left
+9, 5, right
+1, 9, left
+2, 9, right
