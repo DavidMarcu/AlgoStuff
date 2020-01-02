@@ -12,6 +12,7 @@
         <module>Sorting</module>
         <module>Trees</module>
         <module>ArraysAndStrings</module>
+        <module>LInkedList</module>
     </modules>
     <name>Algorithm implementations</name>
 
