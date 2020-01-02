@@ -6,9 +6,9 @@ public class LinkedListNode {
         this.value = value;
     }
 
-    public LinkedListNode(LinkedListNode head){
-        this.value = head.value;
-        this.next = head.next;
+    public LinkedListNode(LinkedListNode node){
+        this.value = node.value;
+        this.next = node.next;
     }
 
     public int getValue() {
@@ -26,5 +26,13 @@ public class LinkedListNode {
             iterator = iterator.next;
         }
         iterator.next = nextNode;
+    }
+
+    public void add(LinkedListNode newNode) {
+        LinkedListNode iterator = this;
+        while (iterator.next != null) {
+            iterator = iterator.next;
+        }
+        iterator.next = newNode;
     }
 }
