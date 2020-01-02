@@ -13,6 +13,7 @@
         <module>Trees</module>
         <module>ArraysAndStrings</module>
         <module>LInkedList</module>
+        <module>QueuesAndStacks</module>
     </modules>
     <name>Algorithm implementations</name>
 
